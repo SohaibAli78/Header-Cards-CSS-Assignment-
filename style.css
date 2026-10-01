@@ -1,0 +1,54 @@
+body{
+  background:#17151a;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+  margin:25px;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #444;
+}
+
+nav a{
+  color:white;
+  margin:12px;
+}
+
+button{
+  background:#29252d;
+  color:white;
+  padding:12px 20px;
+  border:0;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin-top:15px;
+}
+
+.card{
+  border:1px solid #555;
+  padding:30px;
+  height:210px;
+}
+
+.card span{
+  font-size:25px;
+}
+
+.card p{
+  color:#ddd;
+}
+
+.card a{
+  text-decoration:underline;
+}
+.icon svg{
+  width: 28px;
+  height: 28px;
+}
